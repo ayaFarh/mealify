@@ -1,0 +1,18 @@
+:root:has(.mode input:checked){
+    --bg-primery:#352d2d;
+    --bg-secondry:rgb(53, 48, 48);
+    --bg-white:hwb(0 10% 90%);
+}
+:root:has(.mode input:checked) .mode .ligt{
+    display: none;
+}
+:root:has(.mode input:checked) .mode .dark{
+    display: block;
+    color: white;
+}
+:root:has(.mode input:checked) nav h2{
+    color: gray;
+}
+:root:has(.mode input:checked) .help h4{
+    color: gray;
+}
